@@ -97,4 +97,7 @@ def sum_digits_rec(n, digit_sum):
         n, last = split(n)
         return sum_digits_rec(n, digit_sum + last)
 
+def test_func(n):
+    print(n)
+
 
